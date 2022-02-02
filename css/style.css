@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@200;400&display=swap');
+
+
+:root {
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Slightly-trans-white: hsla(0, 0%, 100%, 0.6);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Very-dark-blue);
+    
+}
+
+.container {
+    width: 320px;
+    height: auto;
+    background-color: var(--Dark-desaturated-blue);
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+.container__img {
+    
+    background-color: var(--Soft-violet);
+    width: 320px;
+    height: 264px;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.main-img {
+    width: 320px;
+    height: 264px;
+    border-radius: 10px 10px 0 0;
+    mix-blend-mode: multiply;
+     filter: opacity(0.7); 
+} 
+
+.container__stats--title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--White);
+    letter-spacing: 1px;
+    margin: 40px 40px 0px 40px;
+    text-align: center;
+
+}
+
+.container__stats--title span {
+    color: var(--Soft-violet);
+}
+
+.container__stats--subtitle {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: var(--Slightly-transparent-white);
+    text-align: center;
+    line-height: 2.4rem;
+    margin: 14px 25px;
+}
+
+.container__stats--view {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.container__stats--view h2 {
+    color: var(--Slightly-transparent-white);
+    font-size: 2.4rem;
+    margin-bottom: 5px;;
+}
+
+
+.container__stats--view p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: var(--Slightly-trans-white);
+    margin-top: 0;
+}
+
