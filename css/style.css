@@ -140,7 +140,7 @@ body {
 .container__stats--view p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.2rem;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 1px;
     color: var(--Slightly-trans-white);
     margin-top: 0;
